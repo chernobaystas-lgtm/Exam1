@@ -8,7 +8,14 @@ Product products[50];
 int productCount = 0;
 
 
-
+void ClearScreen()
+{
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
+}
 
 void Product :: PrintProduct()
 {

@@ -48,7 +48,7 @@ void ProductMenu();
 void SearchMenu();
 void SortMenu();
 
-
+void ClearScreen();
 void clearInput();
 int safeInputInt(const char* prompt);
 void safeInputStr(const char* prompt, char* buffer, int maxLen);

@@ -4,6 +4,7 @@
 
 void FirstMainMenu()
 {
+    ClearScreen();
     cout << "Shyro dyakuyemo, shcho zavitay v nash sklad\n\n";
     cout << "Viberit diyu z:\n";
     cout << "1. Kategoriyeyu\n";
@@ -15,6 +16,7 @@ void FirstMainMenu()
 
 void CategoryMenu()
 {
+    ClearScreen();
     cout << "Viberit diyu z:\n";
     cout << "1. Dodaty kategoriyu\n";
     cout << "2. Vydalyty kategoriyu\n";
@@ -24,6 +26,7 @@ void CategoryMenu()
 
 void ProductMenu()
 {
+    void ClearScreen();
     cout << "Viberit diyu z:\n";
     cout << "1. Dodaty tovar\n";
     cout << "2. Vydalyty tovar\n";
@@ -34,6 +37,7 @@ void ProductMenu()
 
 void SearchMenu()
 {
+    void ClearScreen();
     cout << "Viberit diyu z:\n";
     cout << "1. Poshukom po nazvi\n";
     cout << "2. Poshukom po vyrobnyku\n";
@@ -46,6 +50,7 @@ void SearchMenu()
 
 void SortMenu()
 {
+    void ClearScreen();
     cout << "Viberit diyu z:\n";
     cout << "1. Sortuvannya po tsini\n";
     cout << "2. Sortuvannya po kategoriyi\n";
