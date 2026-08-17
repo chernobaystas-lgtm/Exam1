@@ -50,7 +50,8 @@ int Show_all_Products()
     cout << "\n--- Spysok tovariv ---\n";
     for (int i = 0; i < productCount; i++)
     {
-        PrintProduct(products[i]);
+        cout << "No" << (1 + i);
+        products[i].PrintProduct();
     }
     cout << "----------------------\n";
     return 1;

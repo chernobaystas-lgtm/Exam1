@@ -30,6 +30,8 @@ struct Product {
 	double price;
 	int date_since_in_store;
 	int expiry_date;
+
+    void PrintProduct();
 };
 
 extern Category categories[30];
@@ -46,7 +48,7 @@ void ProductMenu();
 void SearchMenu();
 void SortMenu();
 
-void PrintProduct(const Product& product);
+
 void clearInput();
 int safeInputInt(const char* prompt);
 void safeInputStr(const char* prompt, char* buffer, int maxLen);

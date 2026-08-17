@@ -18,7 +18,8 @@ int Find_by_name()
     {
         if (containsIgnoreCase(products[i].name, query))
         {
-            PrintProduct(products[i]);
+            cout << "No" << (1 + i);
+            products[i].PrintProduct();
             found++;
         }
     }
@@ -43,7 +44,8 @@ int Find_by_manufacturer()
     {
         if (containsIgnoreCase(products[i].manufacturer, query))
         {
-            PrintProduct(products[i]);
+            cout << "No" << (1 + i);
+            products[i].PrintProduct();
             found++;
         }
     }
@@ -67,7 +69,8 @@ int find_by_price()
     {
         if (products[i].price == price)
         {
-            PrintProduct(products[i]);
+            cout << "No" << (1 + i);
+            products[i].PrintProduct();
             found++;
         }
     }
@@ -97,7 +100,8 @@ int find_by_category()
     {
         if (products[i].categoryId == catId)
         {
-            PrintProduct(products[i]);
+            cout << "No" << (1 + i);
+            products[i].PrintProduct();
             found++;
         }
     }
@@ -121,7 +125,8 @@ int find_by_expiry_date()
     {
         if (products[i].expiry_date <= date)
         {
-            PrintProduct(products[i]);
+            cout << "No" << (1 + i);
+            products[i].PrintProduct();
             found++;
         }
     }
@@ -145,7 +150,8 @@ int find_by_date_since_in_store()
     {
         if (products[i].date_since_in_store == date)
         {
-            PrintProduct(products[i]);
+            cout << "No" << (1 + i);
+            products[i].PrintProduct();
             found++;
         }
     }

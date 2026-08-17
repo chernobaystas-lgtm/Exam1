@@ -10,15 +10,14 @@ int productCount = 0;
 
 
 
-void PrintProduct(const Product& product)
+void Product :: PrintProduct()
 {
-    cout << "No" << (1 + (&product - products))
-        << " | Nazva: " << product.name
-        << " | Vyrobnyk: " << product.manufacturer
-        << " | Kategoriya: " << GetCategoryName(product.categoryId)
-        << " | Tsina: " << product.price
-        << " | Data nadkhodzhennya: " << product.date_since_in_store
-        << " | Prydatnist: " << product.expiry_date
+    cout << " | Nazva: " << name
+        << " | Vyrobnyk: " << manufacturer
+        << " | Kategoriya: " << GetCategoryName(categoryId)
+        << " | Tsina: " << price
+        << " | Data nadkhodzhennya: " << date_since_in_store
+        << " | Prydatnist: " << expiry_date
         << "\n";
 }
 
