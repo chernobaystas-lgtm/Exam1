@@ -1,0 +1,16 @@
+.vs/
+*/x64/
+*/Debug/
+*.vsidx
+*.db
+*.db-shm
+*.db-wal
+*.suo
+*.opendb
+x64/
+Debug/
+Release/
+*.exe
+*.pdb
+*.idb
+*.ilk
